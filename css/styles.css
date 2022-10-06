@@ -1,0 +1,110 @@
+/***************** TAGS *****************/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #232931;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #232931, #4ECCA3, #232931);
+}
+
+h3 {
+    color: #ADDDD0;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #ADDDD0;
+}
+
+a:hover {
+    color: #0c3c4f;
+}
+
+/***************** CLASSES *****************/
+
+.top-container {
+    background-color: #232931;
+}
+
+.mid-container {
+    text-align: center;
+}
+
+.many-text {
+    color: #ADDDD0;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.project-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+
+/***************** IDS *****************/
+#name-header {
+    color: #4ECCA3;
+    position: relative;
+    left: 250px;
+    font-size: 72px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#intro-basic {
+    color: #ADDDD0;
+    position: relative;
+    left: 250px;
+    bottom: 35px;
+    font-size: 48px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#intro-desc {
+    color: #ADDDD0;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    width: 550px;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+
+#hi {
+    color: #4ECCA3;
+    position:relative;
+    left: 255px;
+    top: 50px;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#projects-header {
+    color: #4ECCA3;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#browser-gif {
+    float: right;
+}
+
+#bank-gif {
+    float: left;
+}
+
+#music-gif {
+    float: left;
+}
