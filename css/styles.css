@@ -1,110 +1,136 @@
-/***************** TAGS *****************/
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #232931;
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #4ECCA3;
+    font-size: 72px;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #ADDDD0;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #ADDDD0;
+    font-size: 38px;
 }
 
 hr {
     border: 0;
+    background-color: #232931;
     height: 1px;
-    background-image: linear-gradient(to right, #232931, #4ECCA3, #232931);
+    margin-top: 10%;
+    background-image: linear-gradient(to right, #232931, #4ECCA3 , #232931);
 }
 
-h3 {
-    color: #ADDDD0;
-    font-size: 30px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-a {
+a:link {
     text-decoration: none;
 }
-
-a:link, a:visited {
-    color: #ADDDD0;
+  
+a:visited {
+    text-decoration: none;
 }
-
+  
 a:hover {
-    color: #0c3c4f;
+    text-decoration: none;
 }
+  
 
-/***************** CLASSES *****************/
-
-.top-container {
+/*************************** CLASSES ***************************/
+.container-fluid {
     background-color: #232931;
+    padding: 3% 15%
 }
 
-.mid-container {
+.nav-link {
+    font-family: 'Quicksand', sans-serif;
+    color: #4ECCA3;
+}
+
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    color: #4ECCA3;
+}
+
+.row {
+    padding: 4% 4%;
+}
+
+.projects-split-hr {
+    border: dotted #ADDDD0 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: auto;
+
+}
+
+.employer-header {
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #4ECCA3;
 }
 
-.many-text {
+.job-details {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #ADDDD0;
+    font-size: 25px;
+}
+
+.job-desc {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
     color: #ADDDD0;
     font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
 }
 
-.project-row {
-    width: 50%;
-    margin: 100px auto;
+.carousel-inner {
+    padding: auto;
+}
+
+/*************************** IDS ***************************/
+#me-img {
+    width: 250px;
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#about-me-container {
+    padding: auto auto;
     text-align: left;
-    line-height: 1.5;
-}
-
-
-/***************** IDS *****************/
-#name-header {
-    color: #4ECCA3;
-    position: relative;
-    left: 250px;
-    font-size: 72px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-#intro-basic {
-    color: #ADDDD0;
-    position: relative;
-    left: 250px;
-    bottom: 35px;
-    font-size: 48px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-#intro-desc {
-    color: #ADDDD0;
-    font-size: 30px;
-    font-family: 'Quicksand', sans-serif;
-    width: 550px;
-    position: relative;
-    left: 250px;
-    bottom: 50px;
-}
-
-#hi {
-    color: #4ECCA3;
-    position:relative;
-    left: 255px;
-    top: 50px;
-    font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
 }
 
 #projects-header {
-    color: #4ECCA3;
     text-align: center;
-    font-size: 48px;
-    font-family: 'Quicksand', sans-serif;
 }
 
-#browser-gif {
-    float: right;
-}
-
-#bank-gif {
-    float: left;
+#me-header {
+    text-align: center;
 }
 
 #music-gif {
-    float: left;
+    margin-left: 50%;
 }
+
+#browser-gif {
+    margin-right: 60%;
+}
+
+#bank-gif {
+    margin-left: 50%;
+}
+
+#work-header {
+    text-align: center;
+}
+
+#work-carousel { 
+    text-align: center;
+}
+/*
+#4ECCA3 header color
+#ADDDD0 writing text
+#232931 background 
+*/
