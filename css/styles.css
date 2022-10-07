@@ -12,7 +12,7 @@ p {
 
 h3 {
     font-family: 'Quicksand', sans-serif;
-    color: #ADDDD0;
+    color: #46ffce;
     font-size: 38px;
 }
 
@@ -26,14 +26,17 @@ hr {
 
 a:link {
     text-decoration: none;
+    color: #4ECCA3;
 }
   
 a:visited {
     text-decoration: none;
+    color: #4ECCA3;
 }
   
 a:hover {
     text-decoration: none;
+    color: #123a2c
 }
   
 
@@ -43,10 +46,15 @@ a:hover {
     padding: 3% 15%
 }
 
-.nav-link {
+.navbar-toggler {
+    color: #4ECCA3;
+}
+
+.navbar-light .navbar-nav .nav-link {
     font-family: 'Quicksand', sans-serif;
     color: #4ECCA3;
 }
+
 
 .navbar-brand {
     font-family: 'Quicksand', sans-serif;
@@ -85,10 +93,13 @@ a:hover {
     font-size: 20px;
 }
 
-.carousel-inner {
-    padding: auto;
+.btn .btn-outline-light {
+    margin-left: 100px;
 }
 
+.email-photo {
+    margin: auto;
+}
 /*************************** IDS ***************************/
 #me-img {
     width: 250px;
@@ -124,9 +135,14 @@ a:hover {
 
 #work-header {
     text-align: center;
+    margin-bottom: 10%;
 }
 
 #work-carousel { 
+    text-align: center;
+}
+
+#contact-header {
     text-align: center;
 }
 /*
